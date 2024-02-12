@@ -45,6 +45,7 @@ def get_data_from_json(jdata):
 
     # print("reting: ", (id, opcode, data))
     if data:
+        data += "=="
         data = base64.b64decode(data).decode()
 
     return id, opcode, data
