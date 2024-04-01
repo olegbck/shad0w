@@ -21,8 +21,8 @@ dpkg -i /tmp/libicu57_57.1-6+deb9u4_amd64.deb
 wget http://ftp.ca.debian.org/debian/pool/main/u/ust/liblttng-ust0_2.10.3-1_amd64.deb -O /tmp/liblttng-ust0_2.10.3-1_amd64.deb
 dpkg -i /tmp/liblttng-ust0_2.10.3-1_amd64.deb
 
-wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.21_amd64.deb
-dpkg -i libssl1.1_1.1.1f-1ubuntu2.21_amd64.deb
+wget http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
+dpkg -i libssl1.1_1.1.1f-1ubuntu2.22_amd64.deb
 
 apt update -y
 apt install dotnet-sdk-2.2 -y
